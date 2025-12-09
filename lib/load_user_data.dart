@@ -16,10 +16,11 @@ Future<List<ScoreStudent>> loadStudentData(String filePath) async {
 
       String name = parts[0];
       int score = int.parse(parts[1]);
-      studentList = [ScoreStudent(score: score, name: name)];
+
+      studentList.add(ScoreStudent(score: score, name: name));
     }
   } catch (e) {
-    print("학생 데이터를 불러오는 데 실패했습니다: $e");
+    print("학생 데이터를 불러오는 데 실패했습니다: ${e.toString()}");
     exit(1);
   }
   return studentList;
