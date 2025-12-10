@@ -96,3 +96,6 @@ void printAver(List<ScoreStudent> studentList) {
 - 1,2,3이 아닌 값이 들어오면 -1을 반환해 "다시 입력하세요" 출력
 - 1번, 우수생 출력 : studentList를 점수 순으로 정렬 후, 가장 마지막 학생 출력 -> "같은 점수의 학생이 여러명이면 어떻게 할건데?" 나만의 기능에서 구현할건데.
 - 2번, 평균 점수 출력 : list의 map 메서드로 studentList의 점수만 골라 새로운 list 생성, reduce 메서드로 모든 점수의 합을 구하고 list의 길이로 나누어 평균 점수 출력
+
+## 실행결과
+<img width="196" height="307" alt="image" src="https://github.com/user-attachments/assets/5fd5b22a-2ec3-463d-bb49-836c20ab3dd5" />
